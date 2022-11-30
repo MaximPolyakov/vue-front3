@@ -28,6 +28,11 @@
             </router-link>
           </li>
           <li class="nav-item" @click="mobileNavShow = false">
+            <router-link to="/subscription" class="nav-link" :class="{'active': isSelected==5?true:false}" exact>
+              Subscription
+            </router-link>
+          </li>
+          <li class="nav-item" @click="mobileNavShow = false">
             <router-link to="/offer" class="nav-link" :class="{'active': isSelected==10?true:false}" exact>Special
               Offer
             </router-link>
@@ -71,8 +76,8 @@
                   :class="{'active': isSelected==4?true:false}">Investors</a></router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/subscription1" exact><a class="nav-link"
-                  :class="{'active': isSelected==4?true:false}">Subscriptions</a></router-link>
+              <router-link to="/subscription" exact><a class="nav-link"
+                  :class="{'active': isSelected==4?true:false}">Subscription</a></router-link>
             </li>
             <li class="nav-item">
               <router-link to="/contact_us" exact><a class="nav-link"
@@ -293,6 +298,7 @@
 
   #navb {
     margin-bottom: 10px;
+    margin-left: -76px;
   }
 
   #nav-search {
@@ -348,12 +354,6 @@
 
   .nav-item {
     padding: 5px 2.1vw;
-    position: relative;
-  }
-
-  .nav-item:first-child {
-    padding: 5px 2.1vw;
-    padding-left: 1px;
     position: relative;
   }
 
