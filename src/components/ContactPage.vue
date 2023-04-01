@@ -4,13 +4,12 @@
     <!-- <main-navbar  :isSelected=5 /> -->
     <div class="contact_header">
       <form ref="form" @submit.prevent="sendEmail">
-        <div class="pc-number">Sales business hours 8AM-5PM CST Monday-Friday Contact us directly at <span> (224)
-            228-4509</span> or
+        <div class="pc-number">Sales business hours 8AM-5PM CST Monday-Friday Contact us directly at <span> (608)
+            400-6112</span> or
           complete the form below and a IQHaulers
           representative will be in touch with you shortly.</div>
         <div class="mobile-number">Sales business hours 8AM-5PM CST Monday-Friday Contact us directly at <br> <span>
-            (224)
-            228-4509</span> or
+            (608) 400-6112</span> or
           complete the form below and a IQHaulers
           representative will be in touch with you shortly.</div>
         <div class="omrs-input-group">

@@ -27,11 +27,11 @@
             <router-link to="/contact_us" class="nav-link" :class="{'active': isSelected==5?true:false}" exact>Contacts
             </router-link>
           </li>
-          <li class="nav-item" @click="mobileNavShow = false">
+          <!-- <li class="nav-item" @click="mobileNavShow = false">
             <router-link to="/subscription" class="nav-link" :class="{'active': isSelected==5?true:false}" exact>
               Subscription
             </router-link>
-          </li>
+          </li> -->
           <li class="nav-item" @click="mobileNavShow = false">
             <router-link to="/offer" class="nav-link" :class="{'active': isSelected==10?true:false}" exact>Special
               Offer
@@ -75,10 +75,10 @@
               <router-link to="/investorspage" exact><a class="nav-link"
                   :class="{'active': isSelected==4?true:false}">Investors</a></router-link>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <router-link to="/subscription" exact><a class="nav-link"
                   :class="{'active': isSelected==4?true:false}">Subscription</a></router-link>
-            </li>
+            </li> -->
             <li class="nav-item">
               <router-link to="/contact_us" exact><a class="nav-link"
                   :class="{'active': isSelected==5?true:false}">Contacts</a></router-link>
